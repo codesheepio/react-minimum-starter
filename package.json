@@ -1,0 +1,8 @@
+{
+  "name": "react-minimum-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:codesheepio/react-minimum-starter.git",
+  "author": "Arnupharp Viratanapanu <arnupharp@larngeartech.com>",
+  "license": "MIT"
+}
