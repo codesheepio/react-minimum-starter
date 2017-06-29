@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
-import ColoredCounter from './components/ColoredCounter'
+import App from './App'
 
 const render = Component => {
   ReactDOM.render(
@@ -11,7 +11,7 @@ const render = Component => {
     document.getElementById('react-root')
   )
 }
-render(ColoredCounter)
+render(App)
 if (module.hot) {
-  module.hot.accept('./components/ColoredCounter', () => render(ColoredCounter))
+  module.hot.accept('./App', () => render(App))
 }
